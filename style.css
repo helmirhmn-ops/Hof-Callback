@@ -1,0 +1,60 @@
+body {
+  background-color: #f8f9fa;
+  font-family: sans-serif;
+}
+
+.search-box {
+  max-width: 260px;
+}
+
+.search-box .form-control:focus {
+  box-shadow: none;
+  border-color: #dee2e6;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.7rem 0.75rem;
+  font-size: 0.92rem;
+}
+
+.table thead th {
+  font-weight: 700;
+  color: #212529;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Badge Kelas */
+.badge-class {
+  background-color: #6c757d;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.35em 0.85em;
+  border-radius: 50rem;
+  display: inline-block;
+}
+
+/* Badge Nilai */
+.badge-score {
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 0.35em 0.65em;
+  border-radius: 0.35rem;
+  display: inline-block;
+  min-width: 34px;
+}
+
+.score-high {
+  background-color: #198754; /* Hijau (>= 85) */
+  color: #ffffff;
+}
+
+.score-mid {
+  background-color: #ffc107; /* Kuning (75 - 84) */
+  color: #212529;
+}
+
+.score-low {
+  background-color: #dc3545; /* Merah (< 75) */
+  color: #ffffff;
+}
